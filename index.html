@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Html Form</title>
+</head>
+<body>
+    <div class="home">
+        <h1 class="mainHeading">Registration Form</h1>
+        <form action="#">
+            <h3>First Name</h3>
+            <input type="text" id="first1" name="firstname" placeholder="Enter your First Name..." required>
+            <h3>Last Name</h3>
+            <input type="text" id="last1" name="lastname" placeholder="Enter your Last Name..." required>
+            <h3>Date of Birth</h3>
+            <input type="date" id="date1" name="date" placeholder="Enter your date of birth" required>
+            <h3>Phone Number</h3>
+            <input type="number" id="phone" name="phone" placeholder="Enter your phone number...">
+            <h3>Email</h3>
+            <input type="email" id="email1" name="email" placeholder="Enter your email Id..." required>
+            <h3>Password</h3>
+            <input type="password" id="password1" name="password" placeholder="Enter your Password..." required>
+            <h3>Choose one skil</h3>
+            <select id="skill">
+                <option hidden="true" disabled selected>select one</option>
+                <option value="C++">Frontend Developer</option>
+                <option value="C++">Backend Developer</option>
+                <option value="C++">Database Management</option>
+                <option value="C++">UI Design</option>
+            </select>
+            <h3>Something about yourself</h3><textarea class="about" rows="5" cols="30" placeholder="Something about yourself..."></textarea>
+            <input class="submit" type="submit">
+        </form>
+    </div>
+</body>
+</html>
